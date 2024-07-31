@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+}
+
+.navigation{
+padding: 0 8px;
+display: flex;
+align-items: center;
+height: 72px;
+justify-content: flex-end;
+position: relative;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 21px;
+    font: bold;
+    position: absolute;
+    right: 3%;
+}
+
+.header{
+ 
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 80%;
+}
+
+.header p{
+    font-weight: 500;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 240px;
+    height: 60px;
+    color: white;
+    background-color: black;
+}
+
+.btn-contaner{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+
+}
+
+.outline-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 480px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    margin: 10px auto;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    align-items: end;
+    gap: 24px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact-form form {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+  }
+
+  
+.control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    position: relative;
+}
+
+.control input {
+ height : 40px;
+ padding: 0 8px;
+}
+
+.control label{
+    font-size: 14px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.control textarea{
+    height: 70px;
+}
+
+.image{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  background: url("./src/assets/call-center.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  position: relative;
+}
+
